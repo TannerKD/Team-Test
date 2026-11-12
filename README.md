@@ -10,3 +10,18 @@ https://redis.io/docs/latest/develop/clients/redis-py/
 
 ## File Structure
 The file structure for each microservice will look something like the following:
+
+Root
+├─src
+| ├─Microservice_1
+| |  ├─config.py
+| |  ├─logic.py
+| |  ├─.venv
+| |  ├─main.py
+| |  └─README.md
+| |
+| └─Microservice_2
+|    ├─config.py
+|    └─...
+|
+└─README.md
